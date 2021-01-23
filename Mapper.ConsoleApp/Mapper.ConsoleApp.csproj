@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.AgileMapperLibrary\Mapper.AgileMapperLibrary.csproj" />
+    <ProjectReference Include="..\Mapper.AutoMapperLibrary\Mapper.AutoMapperLibrary.csproj" />
+    <ProjectReference Include="..\Mapper.Core\Mapper.Core.csproj" />
+    <ProjectReference Include="..\Mapper.DTO\Mapper.DTO.csproj" />
+    <ProjectReference Include="..\Mapper.Entity\Mapper.Entity.csproj" />
+    <ProjectReference Include="..\Mapper.ExpressMapperLibrary\Mapper.ExpressMapperLibrary.csproj" />
+    <ProjectReference Include="..\Mapper.Logic\Mapper.Logic.csproj" />
+    <ProjectReference Include="..\Mapper.MapsterLibrary\Mapper.MapsterLibrary.csproj" />
+    <ProjectReference Include="..\Mapper.SystemLinqExtentions\Mapper.SystemLinqExtentions.csproj" />
+    <ProjectReference Include="..\Mapper.TinyMapperLibrary\Mapper.TinyMapperLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

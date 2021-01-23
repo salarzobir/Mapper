@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.DTO\Mapper.DTO.csproj" />
+    <ProjectReference Include="..\Mapper.Entity\Mapper.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

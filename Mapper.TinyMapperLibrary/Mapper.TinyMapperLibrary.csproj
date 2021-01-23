@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TinyMapper" Version="3.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.Core\Mapper.Core.csproj" />
+    <ProjectReference Include="..\Mapper.DTO\Mapper.DTO.csproj" />
+    <ProjectReference Include="..\Mapper.Entity\Mapper.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
